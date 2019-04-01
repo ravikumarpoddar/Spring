@@ -1,0 +1,11 @@
+package com.app.mvc.service;
+
+public class BookingService {
+
+	//method(dto)
+	
+	
+	public void () {
+		
+	}
+}

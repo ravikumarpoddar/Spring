@@ -1,0 +1,16 @@
+package com.app.mvc.service;
+
+import org.springframework.stereotype.Component;
+
+import com.app.mvc.DTO.BookingDTO;
+@Component
+public class BookingService {
+
+	//method(dto)
+	public void book(BookingDTO dto) {
+		System.out.println("inside service layer");
+		System.out.println(dto.getSource());
+	}
+	
+	
+}

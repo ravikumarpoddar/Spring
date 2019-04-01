@@ -1,0 +1,33 @@
+package com.app.mvc.DAO;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.springframework.stereotype.Component;
+
+import com.app.mvc.DTO.BookingDTO;
+@Component
+public class BookingDAO {
+
+	// hibernate or jdbc  to save the data
+	public void book(BookingDTO dto) {
+		System.out.println("inside DAO layer");
+		
+		//components of hibernate
+		Configuration config=new Configuration();
+		config.configure();
+		SessionFactory sf=config.buildSessionFactory();
+		
+		Session sess=sf.openSession();
+		sess.save(dto);
+		sess.beginTransaction().commit();
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

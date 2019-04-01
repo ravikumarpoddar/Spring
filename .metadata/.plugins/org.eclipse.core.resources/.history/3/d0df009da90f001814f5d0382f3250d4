@@ -1,0 +1,13 @@
+package com.app.mvc.service;
+
+import com.app.mvc.DTO.BookingDTO;
+
+public class BookingService {
+
+	//method(dto)
+	public void book(BookingDTO dto) {
+		System.out.println("inside service layer");
+		System.out.println(dto.getSource());
+
+	}
+}

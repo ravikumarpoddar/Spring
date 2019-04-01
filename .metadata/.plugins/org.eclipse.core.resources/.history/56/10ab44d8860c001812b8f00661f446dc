@@ -1,0 +1,9 @@
+package com.app.scopes;
+
+import java.io.Serializable;
+
+public class OwnerBean implements Serializable{
+
+	
+	private String name;
+}

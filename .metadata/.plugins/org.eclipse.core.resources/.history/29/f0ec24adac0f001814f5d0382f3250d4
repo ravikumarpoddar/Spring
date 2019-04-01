@@ -1,0 +1,12 @@
+package com.app.mvc.DAO;
+
+import com.app.mvc.DTO.BookingDTO;
+
+public class BookingDAO {
+
+	
+	public void book(BookingDTO dto) {
+		System.out.println("inside DAO layer");
+		System.out.println(dto.getSource());
+	}
+}

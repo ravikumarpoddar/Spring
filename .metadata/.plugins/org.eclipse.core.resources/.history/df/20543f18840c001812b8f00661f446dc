@@ -1,0 +1,31 @@
+package com.app.scopes;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestParlour {
+public static void main(String[] args) {
+	
+	
+	String xml="beans.xml";
+	ApplicationContext ac=new ClassPathXmlApplicationContext(xml);
+	
+	ParlourBean parlour=ac.getBean(ParlourBean.class);
+	
+	ParlourBean parlour2=ac.getBean(ParlourBean.class);
+	ParlourBean parlour3=ac.getBean(ParlourBean.class);
+	
+	
+	
+	System.out.println(parlour);
+	System.out.println(parlour2);
+	System.out.println(parlour3);
+	
+	
+	
+	
+	
+	
+	
+}
+}

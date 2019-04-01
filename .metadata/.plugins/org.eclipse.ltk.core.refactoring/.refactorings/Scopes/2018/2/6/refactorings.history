@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.app.scopes.Testparlour&apos; to &apos;TestParlour&apos;&#x0D;&#x0A;- Original project: &apos;Scopes&apos;&#x0D;&#x0A;- Original element: &apos;com.app.scopes.Testparlour&apos;&#x0D;&#x0A;- Renamed element: &apos;com.app.scopes.TestParlour&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Testparlour&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.app.scopes{Testparlour.java[Testparlour" matchStrategy="1" name="TestParlour" qualified="false" references="true" similarDeclarations="false" stamp="1518060642613" textual="false" version="1.0"/>
+</session>

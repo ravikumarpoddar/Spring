@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ApplicationContext/src&lt;com.app.ac{NavyBean.java[NavyBean" modifiers="1" timestamp="1517805104943"/>
+<typeInfo handle="=Spring_first/src&lt;com.app.spring{BarBean.java[BarBean" modifiers="1" timestamp="1517801560921"/>
+<typeInfo handle="=IOC/src&lt;com.app.IOC{DrinkBean.java[DrinkBean" modifiers="1" timestamp="1517975990804"/>
+<typeInfo handle="=Scopes/src&lt;com.app.scopes{ParlourBean.java[ParlourBean" modifiers="1" timestamp="1518064474514"/>
+<typeInfo handle="=ApplicationContext/lib\/spring-webmvc-5.0.0.RC3.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1517802549018"/>
+<typeInfo handle="=springmvc/src&lt;com.app.mvc.DTO{BookingDTO.java[BookingDTO" modifiers="1" timestamp="1518493890247"/>
+<typeInfo handle="=springmvc/C:\/Users\/JSP-SMALLG\/Desktop\/Spring\/springmvc\/WebContent\/WEB-INF\/lib\/spring-orm-5.0.0.RELEASE.jar&lt;org.springframework.orm.hibernate5(LocalSessionFactoryBean.class[LocalSessionFactoryBean" modifiers="33" timestamp="1518495390565"/>
+</typeInfoHistroy>

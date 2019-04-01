@@ -1,0 +1,11 @@
+package com.app.mvc.DTO;
+
+import java.io.Serializable;
+
+public class bookingDTO implements Serializable{
+	
+	private String source;
+	private String destination;
+	private String date;
+
+}

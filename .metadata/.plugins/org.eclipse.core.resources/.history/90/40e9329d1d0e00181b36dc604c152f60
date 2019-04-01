@@ -1,0 +1,56 @@
+package com.app.mvc.controller;
+
+import java.io.Serializable;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.app.mvc.DTO.bookingDTO;
+
+@Component 
+@RequestMapping("/")
+public class BookingController implements Serializable{
+
+	
+	public BookingController() {
+		System.out.println("entering booking controller");
+	}
+	
+	//1 request = 1method 
+	@RequestMapping("/booking.do")
+	public void bookFlight(HttpServletRequest req) {
+		//obtain all the data from html form
+		System.out.println("entering method BookFlight");
+		String source=req.getParameter("source");
+		String destination=req.getParameter("destination");
+		String date=req.getParameter("dateofDept");
+		System.out.println(source);
+		System.out.println(destination);
+		System.out.println(date);
+		
+		//create the obj of DTO and set the values
+		
+		bookingDTO book=new bookingDTO();
+		book.setSource(source);
+		book.setDestination(destination);
+		book.setSource();
+		
+		
+		
+		
+		
+		
+	}
+	
+	//Login
+	@RequestMapping
+	public void login() {
+		
+	}
+	
+
+	
+	
+}

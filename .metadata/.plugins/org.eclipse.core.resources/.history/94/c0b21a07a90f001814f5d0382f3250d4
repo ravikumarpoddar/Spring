@@ -1,0 +1,28 @@
+package com.app.mvc.controller;
+
+import java.io.Serializable;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.app.mvc.DTO.bookingDTO;
+
+@Component 
+@RequestMapping("/")
+public class BookingController implements Serializable{
+
+	//1 request = 1method 
+	@RequestMapping("/booking.do")
+	public void bookFlight(@ModelAttribute bookingDTO dto) {
+		
+	}
+	
+
+	
+
+	
+	
+}

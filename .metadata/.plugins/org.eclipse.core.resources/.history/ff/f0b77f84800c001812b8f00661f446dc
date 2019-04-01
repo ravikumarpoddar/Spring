@@ -1,0 +1,16 @@
+package com.app.scopes;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestParlour {
+public static void main(String[] args) {
+	
+	
+	String xml="beans.xml";
+	
+	
+	new ClassPathXmlApplicationContext(xml);
+	
+	
+}
+}

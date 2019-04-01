@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean class="com.app.IOC.BarBean" id="bar" autowire="byType">
+   <property name="barName" value="GopiWines"></property>
+   <property name="licNo" value="1234"></property>
+   <!--  dependency injection -->
+  <!--  <property name="drink" ref="scotch" ></property> -->
+   </bean>
+	 
+   <bean class="com.app.IOC.DrinkBean" id="scotch">
+   <property name="type" value="Scotch"></property>
+   <property name="perOfAlcohol" value="48.5"></property>
+   </bean>
+   </beans>
+
+
+

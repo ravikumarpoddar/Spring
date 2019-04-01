@@ -1,0 +1,47 @@
+package com.app.scopes;
+
+import java.io.Serializable;
+
+public class ParlourBean implements Serializable {
+
+	private String name;
+	private String loc;
+	private String type;
+	private int noOfEmp;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLoc() {
+		return loc;
+	}
+
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getNoOfEmp() {
+		return noOfEmp;
+	}
+
+	public void setNoOfEmp(int noOfEmp) {
+		this.noOfEmp = noOfEmp;
+	}
+	
+	
+	
+
+}

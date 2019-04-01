@@ -1,0 +1,7 @@
+package com.app.scopes;
+
+import java.io.Serializable;
+
+public class ParlourBean implements Serializable{
+
+}
