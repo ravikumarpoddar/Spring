@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean class="com.app.ac.NavyBean" id="navy">
+
+		<constructor-arg value="delta_tiger"></constructor-arg>
+		<constructor-arg value="commander"></constructor-arg>
+		<constructor-arg value="surat"></constructor-arg>
+		
+	</bean>
+
+	<bean class="com.app.ac.NavyBean" id="navy2">
+
+		<constructor-arg value="delta_tiger"></constructor-arg>
+		<constructor-arg value="commander"></constructor-arg>
+		<constructor-arg value="surat"></constructor-arg>
+		
+	</bean>
+
+</beans>

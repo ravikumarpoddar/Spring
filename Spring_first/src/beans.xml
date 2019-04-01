@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- Information about bean -->
+	<bean class="com.app.spring.BarBean" id="bar">
+		<constructor-arg value="GopiWines"></constructor-arg>
+		<constructor-arg value="1234abc"></constructor-arg>
+		<constructor-arg value="Basavanagudi"></constructor-arg>
+		<constructor-arg value="200000"></constructor-arg>
+	</bean>
+	
+	<bean class="com.app.spring.BarBean" id="bar2">
+	<constructor-arg value="madhuloka"></constructor-arg>
+		<constructor-arg value="7894adax"></constructor-arg>
+		<constructor-arg value="BTM"></constructor-arg>
+		<constructor-arg value="1000000"></constructor-arg>
+	</bean>
+	
+</beans>
+
