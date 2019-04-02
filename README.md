@@ -1,6 +1,7 @@
 
-                                         Spring:
-                                         -------
+   Spring:
+ -------
+                                        
 >Spring is a framework which is used to develop web applications or enteprise eddition application.
 >It is also called as container. 
 >It is also called as IOC(Inversion of control) framework.
